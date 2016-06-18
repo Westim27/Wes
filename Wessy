@@ -42,5 +42,9 @@
     "autocomplete": [],
     "emotes": {
         "custom_test": "https://cdn.radiant.dj/rcs/icons/test_custom.png"
+        <?php 
+header('Access-Control-Allow-Origin: https://plug.dj'); 
+header('Content-Type: text/json'); 
+?>
     }
 }
